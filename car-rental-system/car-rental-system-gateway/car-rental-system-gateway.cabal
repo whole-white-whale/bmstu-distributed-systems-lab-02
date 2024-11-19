@@ -30,6 +30,7 @@ library
       CreateRentalRequest
       CreateRentalResponse
       ErrorDescription
+      ErrorResponse
       Lib
       PaginationResponse
       PaymentInfo
