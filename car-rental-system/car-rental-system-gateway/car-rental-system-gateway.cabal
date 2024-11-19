@@ -35,6 +35,7 @@ library
       PaginationResponse
       PaymentInfo
       RentalResponse
+      ValidationErrorResponse
   other-modules:
       Paths_car_rental_system_gateway
   autogen-modules:
