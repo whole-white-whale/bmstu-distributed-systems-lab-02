@@ -29,6 +29,7 @@ library
       CarResponse
       Lib
       PaginationResponse
+      PaymentInfo
   other-modules:
       Paths_car_rental_system_gateway
   autogen-modules:
