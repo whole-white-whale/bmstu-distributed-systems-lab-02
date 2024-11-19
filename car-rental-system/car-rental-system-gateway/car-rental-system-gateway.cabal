@@ -25,6 +25,7 @@ source-repository head
 
 library
   exposed-modules:
+      API
       CarInfo
       CarResponse
       CreateRentalRequest
@@ -46,6 +47,7 @@ library
   build-depends:
       aeson
     , base >=4.7 && <5
+    , servant-server
     , time
     , uuid-types
   default-language: Haskell2010
@@ -63,6 +65,7 @@ executable car-rental-system-gateway-exe
       aeson
     , base >=4.7 && <5
     , car-rental-system-gateway
+    , servant-server
     , time
     , uuid-types
   default-language: Haskell2010
@@ -81,6 +84,7 @@ test-suite car-rental-system-gateway-test
       aeson
     , base >=4.7 && <5
     , car-rental-system-gateway
+    , servant-server
     , time
     , uuid-types
   default-language: Haskell2010
