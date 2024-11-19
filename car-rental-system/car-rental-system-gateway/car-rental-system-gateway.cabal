@@ -27,6 +27,7 @@ library
   exposed-modules:
       CarInfo
       CarResponse
+      CreateRentalRequest
       Lib
       PaginationResponse
       PaymentInfo
