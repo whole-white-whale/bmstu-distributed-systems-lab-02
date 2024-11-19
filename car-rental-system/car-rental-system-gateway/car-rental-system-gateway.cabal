@@ -28,6 +28,7 @@ library
       CarInfo
       CarResponse
       CreateRentalRequest
+      CreateRentalResponse
       Lib
       PaginationResponse
       PaymentInfo
